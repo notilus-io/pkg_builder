@@ -14,7 +14,7 @@ pip install pkg_builder
 
 Use `wagon-make-package` to create a new python package:
 ```bash
-  $ wagon-make-package -n new_pkg_name -d "New project package"
+  $ build-package -n new_pkg_name -d "New project package"
     => New python package new_pkg_name created
   $ cd new_pkg_name/
   $ git init; git add *; git commit -am 'initial commit'

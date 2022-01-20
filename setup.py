@@ -22,5 +22,5 @@ setup(name='pkg_builder',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/wagon-make-package'],
+      scripts=['scripts/build-package'],
       zip_safe=False)
