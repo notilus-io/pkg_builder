@@ -1,0 +1,2 @@
+graft pkg_builder
+global-exclude *.py[cod] __pycache__ *.so
